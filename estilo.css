@@ -1,0 +1,491 @@
+* {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.Header {
+    background-image: url(images/bg-header-desktop.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    box-shadow: 0px -15px 15px 10px rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo {
+    display: flex;
+    margin-bottom: 20px;
+    height: 125px;
+    width: 125px;
+    position: absolute;
+}
+
+.text-header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    display: block;
+    font-weight: bold;
+    color: hsl(210, 10%, 33%);
+}
+
+.Sub-title {
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    align-items: center;
+    width: 680px;
+    text-justify: auto;
+}
+
+.button {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.button-ios {
+    background-color: hsl(171, 66%, 44%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px hsl(171, 66%, 44%);
+}
+
+.button-Mac {
+    background-color: hsl(233, 100%, 69%);
+    padding-top: 15px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px hsl(233, 100%, 69%);
+}
+
+.tilte-section {
+    margin-top: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 110px;
+}
+
+.first-image img {
+    height: 572px;
+}
+
+.lateral-section {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    justify-content: center;
+    width: 390px;
+    margin-right: 50px;
+}
+
+.Subtitle-section {
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    text-align: left;
+}
+
+.text-one-section {
+    margin-bottom: 60px;
+}
+
+.text-second-section {
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Image-second-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-computer {
+    margin-top: 115px;
+}
+
+.text-third-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Contanier {
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    column-gap: 50px;
+}
+
+.Contanier .Sub-title {
+    max-width: 330px;
+}
+
+.Box-three {
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.image-box {
+    padding: 2px;
+    margin-top: 30px;
+}
+
+.images-bottom {
+    margin: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 95px;
+}
+
+footer {
+    height: 150px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+    height: 150px;
+    margin-top: 80px;
+    background-color: #f5f6f8;
+    height: 100%;
+}
+
+.image-footer {
+    justify-content: center;
+    align-items: center;
+    height: 52px;
+}
+
+footer .image-footer img {
+    height: 52px;
+}
+
+.social-contact {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    text-decoration: none;
+    row-gap: 25px;
+    column-gap: 95px;
+    color: #585c5f;
+    font-size: smaller;
+    margin-left: 130px;
+    margin-right: 310px;
+}
+
+.social-contact a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.social-media {
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+}
+
+* {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+body {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Header {
+    background-image: url(images/bg-header-desktop.png);
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    box-shadow: 0px -15px 15px 10px rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Logo {
+    margin-bottom: 20px;
+    height: 125px;
+    width: 125px;
+}
+
+.text-header {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    font-weight: bold;
+    color: hsl(210, 10%, 33%);
+    text-align: center;
+}
+
+.Sub-title {
+    
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    text-align: center;
+    align-items: center;
+    width: 680px;
+    text-justify: auto;
+}
+
+.button {
+    flex-wrap: wrap;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+.button-ios {
+    background-color: hsl(171, 66%, 44%);
+    padding: 15px 30px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px hsl(171, 66%, 44%);
+}
+
+.button-Mac {
+    background-color: hsl(233, 100%, 69%);
+    padding: 15px 30px;
+    border-radius: 50px;
+    box-shadow: 0px 4px 10px hsl(233, 100%, 69%);
+}
+
+.main-content {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.title-section {
+    flex-wrap: wrap;
+    margin-top: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.first-section {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 50px;
+    gap: 110px;
+    justify-content: center;
+}
+
+.first-image img {
+    height: 572px;
+}
+
+.lateral-section {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 390px;
+    text-align: center;
+}
+
+.Subtitle-section {
+    font-weight: 400;
+    color: hsl(201, 11%, 66%);
+    font-size: 18px;
+    text-align: center;
+}
+
+.text-one-section {
+    margin-bottom: 60px;
+}
+
+.text-second-section {
+    flex-wrap: wrap;
+    margin-top: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Image-second-section {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image-computer {
+    margin-top: 115px;
+}
+
+.text-third-section {
+    flex-wrap: wrap;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Contanier {
+    flex-wrap: wrap;
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    column-gap: 50px;
+}
+
+.Contanier .Sub-title {
+    max-width: 330px;
+    text-align: center;
+}
+
+.Box-three {
+    flex-wrap: wrap;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    flex-direction: column;
+    row-gap: 10px;
+}
+
+.image-box {
+    padding: 2px;
+    margin-top: 30px;
+}
+
+.images-bottom {
+    flex-wrap: wrap;
+    margin: 160px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 95px;
+}
+
+footer {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    background-color: #f5f6f8;
+    margin-top: 80px;
+}
+
+.image-footer {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .image-footer img {
+    height: 52px;
+}
+
+.social-contact {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    text-decoration: none;
+    row-gap: 25px;
+    column-gap: 95px;
+    color: #585c5f;
+    font-size: smaller;
+}
+
+.social-contact a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.social-media {
+    flex-wrap: wrap;
+    display: flex;
+    flex-direction: row;
+    column-gap: 25px;
+}
+
