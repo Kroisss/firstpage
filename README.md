@@ -6,5 +6,5 @@ Sobre o Andamento do Projeto:
 - Responsividade ainda em Andamento
 
 
-Atenção -  
-Este Projeto Não é de minha autoria e sim do Site de aprendizado: FrontendMentor - https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9
+Créditos
+Este projeto foi realizado por Kroiss com base na ideia original de https://www.frontendmentor.io/challenges/clipboard-landing-page-5cc9bccd6c4c91111378ecb9. A implementação e programação foram feitas por mim.
